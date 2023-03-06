@@ -28,8 +28,7 @@ configure({
 })
 setLocale('zh_TW')
 
-
-createApp(App).mount('#app')
+const app = createApp(App)
 
 app.use(LoadingPlugin)
 app.use(createPinia())
